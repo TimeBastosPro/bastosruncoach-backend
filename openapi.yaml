@@ -4,7 +4,7 @@ info:
   description: API do Time Bastos para GPT com integração externa
   version: 1.0.0
 servers:
-  - url: https://bastosruncoach.onrender.com
+  - url: https://bastosruncoach-backend.onrender.com
 paths:
   /ultimotreino:
     get:
