@@ -1,0 +1,15 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Bastos Run Coach",
+  "name_for_model": "bastos_run_coach",
+  "description_for_human": "Analisa treinos do Strava com inteligência esportiva via GPT.",
+  "description_for_model": "Use para obter e analisar treinos conectados ao Strava do usuário.",
+  "auth": { "type": "none" },
+  "api": {
+    "type": "openapi",
+    "url": "https://bastosruncoach.onrender.com/openapi.yaml"
+  },
+  "logo_url": "https://bastosruncoach.onrender.com/logo.png",
+  "contact_email": "contato@timebastos.com.br",
+  "legal_info_url": "https://bastosruncoach.onrender.com/termos"
+}
