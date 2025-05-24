@@ -1,1 +1,19 @@
 
+{
+  "schema_version": "v1",
+  "name_for_human": "Bastos Run Coach",
+  "name_for_model": "bastos_run_coach",
+  "description_for_human": "Analisa treinos de corrida com dados do Strava e inteligência esportiva.",
+  "description_for_model": "Use esta API para acessar e analisar treinos de corrida. Suporte a sincronização com Strava e análise de performance.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://bastosruncoach-backend.onrender.com/openapi.yaml"
+  },
+  "logo_url": "https://bastosruncoach-backend.onrender.com/logo.png",
+  "contact_email": "contato@timebastos.com.br",
+  "legal_info_url": "https://bastosruncoach-backend.onrender.com/termos"
+}
+
