@@ -33,3 +33,7 @@ def analisar_treino(atividade: dict):
 @app.get("/sincronizar")
 def sincronizar():
     return {"mensagem": "Redirecionar para login no Strava"}
+
+@app.get("/analisar", response_class=HTMLResponse)
+def form_analisar(request: Request):
+    return templates.TemplateResponse("analisar.html", {"request": request})
