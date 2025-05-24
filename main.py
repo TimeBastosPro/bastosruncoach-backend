@@ -54,3 +54,8 @@ def analisar_treino(dados: Treino):
     return {
         "analise": f"Atividade com {dados.distancia} km a {dados.ritmo}/km foi registrada e será analisada."
     }
+from fastapi.responses import FileResponse
+
+@app.get("/openapi.yaml", include_in_schema=False)
+async def get_openapi_yaml():
+    return FileResponse("openapi.yaml", media_type="text/yaml")
